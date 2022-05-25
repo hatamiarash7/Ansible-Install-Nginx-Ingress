@@ -2,6 +2,15 @@
 
 You can use this role to install [Nginx Ingress](https://github.com/kubernetes/ingress-nginx) for Kubernetes.
 
+For the sake of clarity, there are two versions of Nginx Ingress controller:
+
+-   **Community version** – Found in the **[kubernetes/ingress-nginx](https://github.com/kubernetes/ingress-nginx)** repo on GitHub, the community Ingress controller is based on Nginx Open Source with docs on Kubernetes.io. It is maintained by the Kubernetes community with a [commitment from F5 Nginx](https://www.nginx.com/blog/nginx-sprint-2-0-clear-vision-fresh-code-new-commitments-to-open-source/#resources-for-kubernetes) to help manage the project
+-   **Nginx version** – Found in the **[nginxinc/kubernetes-ingress](https://github.com/nginxinc/kubernetes-ingress)** repo on GitHub, Nginx Ingress Controller is developed and maintained by F5 Nginx with docs on [docs.nginx.com](https://docs.nginx.com/nginx-ingress-controller/). It is available in two editions:
+    -   Nginx Open Source‑based (free and open source option)
+    -   Nginx Plus-based (commercial option)
+
+> A ❤ for community
+
 ## How-to
 
 First you need instal the role:
