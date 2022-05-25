@@ -1,0 +1,19 @@
+galaxy_info:
+  role_name: install_nginx_ingress
+  author: Arash Hatami
+  namespace: hatamiarash7
+  description: Install Nginx Ingress Controller
+  issue_tracker_url: https://github.com/hatamiarash7/Ansible-Install-Nginx-Ingress/issues
+  license: license (GPL-3.0-only)
+  min_ansible_version: "2.9"
+  platforms:
+    - name: Ubuntu
+      versions:
+        - focal
+        - bionic
+  galaxy_tags:
+    - k8s
+    - kubernetes
+    - ingress
+    - nginx
+dependencies: []
